@@ -22,6 +22,18 @@ public class ProductService {
         productRepository.save(product);
         log.info("Product {} is saved ",product.getId());
     }
+    public List<ProductResponse> getAllProducts(){
+        List<Product> products  = productRepository.findAll();
+        return products.stream().map(this::mapToResponse).toList();
+    }
 
+    private ProductResponse mapToResponse(Product product){
+        return ProductResponse.builder()
+                .id(product.getId())
+                .name(product.getName())
+                .description(product.getDescription())
+                .price(product.getPrice())
+                .build();
+    }
     
 }
