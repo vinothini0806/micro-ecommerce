@@ -15,14 +15,13 @@ import java.util.List;
 @Slf4j
 public class InventoryController {
 
-    // private final InventoryService inventoryService;
+    private final InventoryService inventoryService;
 
     
     @GetMapping("/{sku-code}")
     @ResponseStatus(HttpStatus.OK)
     public boolean isInStock(@PathVariable("sku-code") String skuCode) {
-        // log.info("Received inventory check request for skuCode: {}", skuCode);
-        // return inventoryService.isInStock(skuCode);
+        return inventoryService.isInStock(skuCode);
     }
 }
 
