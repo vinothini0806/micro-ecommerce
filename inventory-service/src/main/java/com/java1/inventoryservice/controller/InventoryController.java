@@ -1,7 +1,7 @@
-package com.programmingtechie.inventoryservice.controller;
+package com.java1.inventoryservice.controller;
 
-import com.programmingtechie.inventoryservice.dto.InventoryResponse;
-import com.programmingtechie.inventoryservice.service.InventoryService;
+
+import com.java1.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

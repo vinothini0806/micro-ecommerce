@@ -1,7 +1,6 @@
-package com.programmingtechie.inventoryservice.service;
+package com.java1.inventoryservice.service;
 
-import com.programmingtechie.inventoryservice.dto.InventoryResponse;
-import com.programmingtechie.inventoryservice.repository.InventoryRepository;
+import com.java1.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
