@@ -17,10 +17,12 @@ public class InventoryController {
 
     private final InventoryService inventoryService;
 
-    
-    @GetMapping("/{sku-code}")
+
+    // http://loclhost:6062/api/inventory?sku-code=iphone-13&sku-code=iphone13-red
+    @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public boolean isInStock(@PathVariable("sku-code") String skuCode) {
+    public boolean isInStock(@RequestParam List<String> skuCode) {
+
         return inventoryService.isInStock(skuCode);
     }
 }
