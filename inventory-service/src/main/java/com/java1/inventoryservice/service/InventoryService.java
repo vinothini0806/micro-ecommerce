@@ -1,5 +1,6 @@
 package com.java1.inventoryservice.service;
 
+import com.java1.inventoryservice.dto.InventoryResponse;
 import com.java1.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
@@ -18,9 +19,14 @@ public class InventoryService {
 
     @Transactional(readOnly = true)
     @SneakyThrows
-    public boolean isInStock(List<String> skuCode) {
+    public List<InventoryResponse> isInStock(List<String> skuCode) {
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
-                .map(inventory->)
+                .map(inventory->
+                                InventoryResponse.builder()
+                                        .skuCode(inventory.getSkuCode())
+                                        .isInStock(inventory.getQuantity()>0)
+                                        .build()
+                        ).toList();
                 
     }
 }
