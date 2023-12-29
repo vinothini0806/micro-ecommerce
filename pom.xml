@@ -11,8 +11,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>org.java2</groupId>
-    <artifactId>microservice-new1</artifactId>
+    <groupId>org.java1</groupId>
+    <artifactId>micro-ecommerce</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
