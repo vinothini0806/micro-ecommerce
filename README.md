@@ -9,13 +9,6 @@
 <h4 align="center">Revolutionizing commerce through a dynamic Microservices-based e-commerce solution.</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-</p>
-
-<p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
 </p>
