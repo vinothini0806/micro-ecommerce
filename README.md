@@ -52,20 +52,17 @@ To clone and run this application, you'll need [MongoDB](https://www.mongodb.com
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/vinothini0806/micro-ecommerce.git
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd micro-ecommerce
+
+Open the IDE (IntelliJ/Eclipse)
 
 # Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+# Run the services
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 
 ## Download
