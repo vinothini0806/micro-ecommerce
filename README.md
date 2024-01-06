@@ -35,27 +35,20 @@
 
 ## Key Features
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* Building services - Order service, Inventory service, Product service
+* Inter Service communication
+* Synchronous communication
+* Automated Integration test 
+* Discovery server
+* API gateway .
+* Secured communication.
+* Performance
+* Distributed tracing design pattern
+* Asynchronous communication
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [MongoDB](https://www.mongodb.com/) , [MySQL](https://www.mysql.com/), [Docker](https://www.docker.com/), [KeyCloak](https://www.keycloak.org/) and [KeyCloak](https://www.keycloak.org/) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
