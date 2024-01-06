@@ -30,7 +30,7 @@
 
 ## How To Use
 
-To clone and run this application, you'll need [MongoDB](https://www.mongodb.com/) , [MySQL](https://www.mysql.com/), [Docker](https://www.docker.com/), [KeyCloak](https://www.keycloak.org/) and [KeyCloak](https://www.keycloak.org/) installed on your computer. From your command line:
+To clone and run this application, you'll need [MongoDB](https://www.mongodb.com/) , [MySQL](https://www.mysql.com/), [Docker](https://www.docker.com/) and [KeyCloak](https://www.keycloak.org/) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
